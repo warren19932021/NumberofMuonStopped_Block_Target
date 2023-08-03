@@ -1,0 +1,17 @@
+/tracking/verbose 0
+/control/execute MuMinusSource.mac
+
+
+/detector/SideThickness 150
+/detector/FrontThickness 20
+/detector/InnerHeight 200
+/detector/TargetMaterial G4_Te
+/track/secondaryNameContains Sb124
+
+/run/initialize
+
+/run/printProgress 10000
+/run_action/out_file_name Run0_150_50_150_Sn.root 
+
+/run/beamOn 800000
+
